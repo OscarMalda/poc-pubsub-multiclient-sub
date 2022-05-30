@@ -6,6 +6,12 @@ Para su uso es necesario tener configurados:
 * Servidor web LAMP.
 * Cuenta de servicio con acceso a Pub/Sub en el proyecto de GCP.
 
+## Instalación
+Paquetes necesarios gestionador a través de Composer
+```
+composer install
+```
+
 ## Ejecución
 Solicitar la página index provoca un bucle de Pulls al servicio de Pub/Sub
 
