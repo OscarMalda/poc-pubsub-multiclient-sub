@@ -1,19 +1,27 @@
 # Pub/Sub Multiclient Sub
-Cliente de Pub/Sub programado en PHP para conectarse a una subscripción de tipo Pull de GCP Pub/Sub.
+![coverage](https://img.shields.io/badge/Developed%20by-Oscar-orange)
 
-## Requisitos
-Para su uso es necesario tener configurados:
-* Servidor web LAMP.
-* Cuenta de servicio con acceso a Pub/Sub en el proyecto de GCP.
+Required repositories:
+* https://github.com/OscarMalda/poc-pubsub-multiclient-pub
+* (this) https://github.com/OscarMalda/poc-pubsub-multiclient-sub
 
-## Instalación
-Paquetes necesarios gestionador a través de Composer
+Pub/Sub client written in PHP to connect to a GCP Pub/Sub Pull subscription.
+
+## Getting Started 📖
+Requirements:
+* Web server LAMP.
+* Service account with access to Pub/Sub in the GCP project.
+
+## Deployment 🚀
+This POC is designed to run locally.
+
+Required packages manager via Composer
 ```
 composer install
 ```
 
-## Ejecución
-Solicitar la página index provoca un bucle de Pulls al servicio de Pub/Sub
+## Usage ✏️
+Requesting page index causes a loop of Pulls to the Pub/Sub service.
 
-## Autores
-* **Oscar Fernández Malda**
+## Authors 🐒
+* @OscarMalda - https://www.oscarmalda.com
